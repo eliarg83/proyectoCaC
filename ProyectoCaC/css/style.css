@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    color: white;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+    /* background-image: url("../img/pizza.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;*/
+
+    background: #fff url("../img/fondo.jpeg") no-repeat fixed center;
+    /* background-size: cover; */
+}
+
+header, nav, footer {
+    background-color: rgba(19, 18, 18, 0.821);
+    padding: 15px;
+    margin: 10px;
+}
+
+header {
+    font-size: 50px;
+}
+
+h1 {
+    font-size: 2rem;
+    /* 32px */
+}
+
+h2 {
+    font-size: 1.5rem;
+    /* 24px */
+}
+
+p {
+    font-size: 1rem;
+    /* 16px */
+}
+
+a {
+    color: rgb(255, 236, 202);
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
