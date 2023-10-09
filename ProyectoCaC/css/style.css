@@ -15,8 +15,14 @@ body {
     /* background-size: cover; */
 }
 
-header, nav, footer {
-    background-color: rgba(19, 18, 18, 0.821);
+header {
+    background-color: rgba(1, 104, 55, 0.821);
+    padding: 15px;
+    margin: 10px;
+}
+
+nav{
+    background-color: rgba(18, 49, 67, 0.821);
     padding: 15px;
     margin: 10px;
 }
@@ -49,3 +55,14 @@ a {
     flex-wrap: wrap;
     justify-content: center;
   }
+
+footer {
+    text-align: left;
+    background-color: rgb(57, 57, 58);
+    font-size: 100px;
+  }
+
+.centrado {
+    text-align: center;
+    font-size: 100%;
+}
