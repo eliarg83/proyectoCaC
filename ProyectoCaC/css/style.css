@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
 
 body {
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-size: 14px;
 
@@ -57,6 +57,7 @@ a {
   }
 
 footer {
+    color:#fff;
     text-align: left;
     background-color: rgb(57, 57, 58);
     font-size: 100px;
@@ -65,4 +66,17 @@ footer {
 .centrado {
     text-align: center;
     font-size: 100%;
+}
+
+.centrar-imagen{
+    text-align: center; /* Centra horizontalmente */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh;
+}
+
+.centrado-parrafo{
+    text-align: center;
+    font-size: 50%;
 }
