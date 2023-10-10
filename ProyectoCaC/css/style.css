@@ -94,3 +94,9 @@ footer {
     box-sizing: border-box;
     font-size: large;
 }
+
+.subtitulo{
+    color: white;
+    font-size: 70%;
+    text-align: center;
+}
