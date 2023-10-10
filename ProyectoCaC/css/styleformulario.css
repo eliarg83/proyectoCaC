@@ -4,14 +4,9 @@ body {
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-size: 20px;
 
-    /* background-image: url("../img/pizza.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;*/
 
     background: #fff url("../img/fondo.jpeg") no-repeat fixed center;
-    /* background-size: cover; */
+    
 }
 
 footer {
@@ -59,7 +54,7 @@ form {
     cursor: pointer;
   }
   
-  /* Estilo para el botón de envío cuando se pasa el cursor por encima */
+  /* Estilo para el botón mouseover */
   button[type="submit"]:hover {
     background-color: rgb(1, 104, 55);
   }
@@ -80,15 +75,15 @@ header {
 
 h1 {
     font-size: 2rem;
-    /* 32px */
+   
 }
 
 h2 {
     font-size: 1.5rem;
-    /* 24px */
+    
 }
 
 p {
     font-size: 1rem;
-    /* 16px */
+    
 }

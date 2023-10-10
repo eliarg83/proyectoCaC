@@ -5,14 +5,8 @@ body {
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-size: 14px;
 
-    /* background-image: url("../img/pizza.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;*/
-
     background: #fff url("../img/fondo.jpeg") no-repeat fixed center;
-    /* background-size: cover; */
+    
 }
 
 header {
@@ -69,10 +63,10 @@ footer {
 }
 
 .centrar-imagen{
-    text-align: center; /* Centra horizontalmente */
+    text-align: center;
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
+    justify-content: center;
+    align-items: center; 
     height: 100vh;
 }
 
@@ -92,8 +86,8 @@ footer {
 }
 
 .contenedor-hijo {
-    width: calc(50% - 10px); /* 50% de ancho para que haya 2 columnas, ajustando el espacio entre ellas */
-    margin-bottom: 20px; /* Espacio entre las filas */
+    width: calc(50% - 10px);
+    margin-bottom: 20px; 
     background-color: rgb(1, 104, 55, 0.821);
     color: #fff;
     padding: 20px;
