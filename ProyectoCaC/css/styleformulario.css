@@ -1,0 +1,68 @@
+body {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+    /* background-image: url("../img/pizza.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;*/
+
+    background: #fff url("../img/fondo.jpeg") no-repeat fixed center;
+    /* background-size: cover; */
+}
+
+footer {
+    color:#fff;
+    text-align: left;
+    background-color: rgb(57, 57, 58);
+    font-size: 15px;
+  }
+ 
+  /* Estilo para el formulario */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  /* Estilo para etiquetas de formulario */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Estilo para campos de entrada de texto */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Estilo para el botón de envío */
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para el botón de envío cuando se pasa el cursor por encima */
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  .centrado {
+    text-align: center;
+  }
