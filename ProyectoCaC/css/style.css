@@ -84,3 +84,19 @@ footer {
 #colores {
     color: black;
 }
+
+.contenedor-padre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contenedor-hijo {
+    width: calc(50% - 10px); /* 50% de ancho para que haya 2 columnas, ajustando el espacio entre ellas */
+    margin-bottom: 20px; /* Espacio entre las filas */
+    background-color: rgb(1, 104, 55, 0.821);
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: large;
+}
