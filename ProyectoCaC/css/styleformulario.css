@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+body {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+
+    background: #fff url("../img/fondo.jpeg") no-repeat fixed center;
+    
+}
+
+footer {
+    color:#fff;
+    text-align: left;
+    background-color: rgb(57, 57, 58);
+    font-size: 15px;
+  }
+ 
+  /* Estilo para el formulario */
+form {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  /* Estilo para etiquetas de formulario */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Estilo para campos de entrada de texto */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Estilo para el botón de envío */
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para el botón mouseover */
+  button[type="submit"]:hover {
+    background-color: rgb(1, 104, 55);
+  }
+
+  .centrado {
+    text-align: center;
+  }
+
+  nav{
+    background-color: rgba(18, 49, 67, 0.821);
+    padding: 15px;
+    margin: 10px;
+}
+
+header {
+    font-size: 50px;
+}
+
+h1 {
+    font-size: 2rem;
+   
+}
+
+h2 {
+    font-size: 1.5rem;
+    
+}
+
+p {
+    font-size: 1rem;
+    
+}

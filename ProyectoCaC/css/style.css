@@ -1,22 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
 
 body {
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-size: 14px;
 
-    /* background-image: url("../img/pizza.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;*/
-
     background: #fff url("../img/fondo.jpeg") no-repeat fixed center;
-    /* background-size: cover; */
+    
 }
 
+<<<<<<< HEAD
 header, nav, footer {
     background-color: rgba(36, 144, 83, 0.83);
+=======
+header {
+    background-color: rgba(1, 104, 55, 0.821);
+    padding: 15px;
+    margin: 10px;
+}
+
+nav{
+    background-color: rgba(18, 49, 67, 0.821);
+>>>>>>> c3b125e4c39b7927cd276124bdfc1c40dc2525b5
     padding: 15px;
     margin: 10px;
 }
@@ -49,3 +54,54 @@ a {
     flex-wrap: wrap;
     justify-content: center;
   }
+
+footer {
+    color:#fff;
+    text-align: left;
+    background-color: rgb(57, 57, 58);
+    font-size: 100px;
+  }
+
+.centrado {
+    text-align: center;
+    font-size: 100%;
+}
+
+.centrar-imagen{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+}
+
+.centrado-parrafo{
+    text-align: center;
+    font-size: 50%;
+}
+
+#colores {
+    color: black;
+}
+
+.contenedor-padre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contenedor-hijo {
+    width: calc(50% - 10px);
+    margin-bottom: 20px; 
+    background-color: rgb(1, 104, 55, 0.821);
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+.subtitulo{
+    color: white;
+    font-size: 70%;
+    text-align: center;
+}
