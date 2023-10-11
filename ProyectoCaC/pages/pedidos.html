@@ -49,6 +49,79 @@
     <h1 class="centrado">PEDIDOS ONLINE</h1>
     <h2 class="centrado">Cargás la receta y te lo llevamos.</h2>
   </header>
+
+
+  <div class="catalogo">
+    <div class="producto">
+        <img src="../img/producto1.jpg" alt="Producto 1" width="50%" height="50%">
+        <h3>Ibupirac</h3>
+        <p>Antiinflamatorio no esteroideo (AINE) que se utiliza para aliviar el dolor y la fiebre.</p>
+        <p>Precio: 800$</p>
+        <button>Comprar</button>
+    </div>
+    <div class="producto">
+        <img src="../img/producto2.jpg" alt="Producto 2" width="50%" height="50%">
+        <h3>Paracetamol</h3>
+        <p>Analgésico y antipirético utilizado comúnmente para reducir la fiebre y aliviar el dolor leve a moderado.</p>
+        <p>Precio: 700$</p>
+        <button>Comprar</button>
+    </div>
+    <div class="producto">
+        <img src="../img/producto3.jpg" alt="Producto 3" width="50%" height="50%">
+        <h3>Aspirina</h3>
+        <p>aliviar el dolor, reducir la fiebre y prevenir la formación de coágulos sanguíneos..</p>
+        <p>Precio: 1000$</p>
+        <button>Comprar</button>
+    </div>
+    <div class="producto">
+        <img src="../img/producto4.jpg" alt="Producto 4" width="50%" height="50%">
+        <h3>Aerotina</h3>
+        <p>Antihistamínico utilizado para aliviar los síntomas de las alergias, como la congestión nasal y los estornudos.</p>
+        <p>Precio: 500$</p>
+        <button>Comprar</button>
+    </div>
+    <div class="producto">
+        <img src="../img/producto5.jpg" alt="Producto 5" width="50%" height="50%">
+        <h3>Alernix</h3>
+        <p>Antihistamínico para tratar las alergias y sus síntomas</p>
+        <p>Precio: 400$</p>
+        <button>Comprar</button>
+    </div>
+    <div class="producto">
+        <img src="../img/producto6.jpg" alt="Producto 6" width="50%" height="50%">
+        <h3>Ranitidina</h3>
+        <p>Para reducir la acidez estomacal y el reflujo ácido.</p>
+        <p>Precio: 1200$</p>
+        <button>Comprar</button>
+    </div>
+</div>
+
+<div class="formulario-pedido">
+    <h2>Formulario de Pedido</h2>
+    <form action="#" method="post">
+        <label for="producto">Producto:</label>
+        <select id="producto" name="producto">
+            <option value="producto1">Ibupirac</option>
+            <option value="producto2">Paracetamol</option>
+            <option value="producto3">Aspirina</option>
+            <option value="producto4">Aerotina</option>
+            <option value="producto5">Alernix</option>
+            <option value="producto6">Ranitidina</option>
+        </select>
+
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" name="cantidad" min="1" required>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="direccion">Dirección de entrega:</label>
+        <textarea id="direccion" name="direccion" rows="4" required></textarea>
+
+        <input type="submit" value="Enviar Pedido">
+    </form>
+</div>
+
   <div class="margenes">
   <p>ENVIAS TU PEDIDO POR WHATSAPP <br>
     Podés cargar la receta si es necesario.</p><br>
@@ -61,7 +134,7 @@
       href="https://wa.me/541154110787?text=Gracias por contactarnos, por favor cargá la receta y en breve nos estamos comunicando"
       target="_blank"><img src="../img/whatsapp-line.png" class="fa-brands fa-whatsapp fa-sm"></i>Whatsapp:1154110487
   </p>
-</div>
+  </div>
 
 
   <footer>
