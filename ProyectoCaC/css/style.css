@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
 
 body {
-    color: rgb(255, 255, 255);
+    color: black;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-size: 14px;
 
@@ -10,14 +10,13 @@ body {
 }
 
 header {
-    background-color: rgba(1, 104, 55, 0.821);
+    background-color: white;
     padding: 15px;
     margin: 10px;
 }
 
 nav{
-    background-color: rgba(18, 49, 67, 0.821);
-    padding: 15px;
+    background-color: white;
     margin: 10px;
 }
 
@@ -49,6 +48,7 @@ a {
     flex-wrap: wrap;
     justify-content: center;
   }
+
 
 footer {
     color:#fff;
@@ -96,7 +96,7 @@ footer {
 }
 
 .subtitulo{
-    color: white;
+    color: black;
     font-size: 70%;
     text-align: center;
 }
