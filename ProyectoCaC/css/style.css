@@ -189,6 +189,7 @@ footer {
     background-color: rgb(1, 104, 55);
 }
 
+
 .catalogo {
     display: flex;
     flex-wrap: wrap;
@@ -268,6 +269,16 @@ footer {
 
 .confirmar:hover {
     background-color: rgb(1, 104, 55);
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class="producto"] {
+      width: 100%;
+    }
+    [class="margenes"] {
+        width: 100%;
+      }
 }
 
 @keyframes miAnimacion {
