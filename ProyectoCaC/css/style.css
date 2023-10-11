@@ -303,3 +303,9 @@ footer {
 #animacionhome {
     animation: miAnimacion 3s ease infinite;
 }
+
+.imagen-derecha {
+    float: right;
+    width: 400px;
+    height: 400px;
+}
