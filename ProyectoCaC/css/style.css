@@ -306,6 +306,13 @@ footer {
 
 .imagen-derecha {
     float: right;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
+}
+
+.imagen-izquierda {
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin-right: 10px;
 }
