@@ -270,9 +270,27 @@ footer {
 .confirmar:hover {
     background-color: rgb(1, 104, 55);
 }
-
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 760px) {
     /* For mobile phones: */
+    [class="producto"] {
+      width: 100%;
+    }
+    [class="margenes"] {
+        width: 100%;
+      }
+}
+
+@media only screen and (min-width: 768px) {
+    /* For tablets: */
+    [class="producto"] {
+      width: 100%;
+    }
+    [class="margenes"] {
+        width: 100%;
+      }
+}
+@media only screen and (min-width: 1200) {
+    /* For deskstop: */
     [class="producto"] {
       width: 100%;
     }
