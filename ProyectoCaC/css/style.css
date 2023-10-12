@@ -87,6 +87,8 @@ footer {
     color: black;
 }
 
+/* Flex box de Descuentos*/
+
 .contenedor-padre {
     display: flex;
     flex-wrap: wrap;
@@ -95,6 +97,7 @@ footer {
     margin: 10px;
 }
 
+/* Flex box de Descuentos*/
 .contenedor-hijo {
     width: calc(50% - 10px);
     margin-bottom: 20px; 
@@ -107,11 +110,14 @@ footer {
     border-radius: 10px;
 }
 
+/* Subtitulo de header */
 .subtitulo{
     color: rgb(255, 255, 255);
     font-size: 70%;
     text-align: center;
 }
+
+/* Fondos */
 
 .fondo-verde {
     background-color: rgb(1, 104, 55, 0.821);
@@ -128,6 +134,8 @@ footer {
     border: 2px solid black;
     border-radius: 10px;
 }
+
+/* Formulario de pedido de productos */
 
 .margenes{
     color: white;
@@ -189,6 +197,7 @@ footer {
     background-color: rgb(1, 104, 55);
 }
 
+/* Lista de Producto */
 
 .catalogo {
     display: flex;
@@ -271,8 +280,8 @@ footer {
     background-color: rgb(1, 104, 55);
 }
 
+/* Media Query */
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
     [class="producto"] {
       width: 100%;
     }
@@ -281,6 +290,7 @@ footer {
       }
 }
 
+/* Animación */
 @keyframes miAnimacion {
     0% {
      
@@ -303,7 +313,8 @@ footer {
 #animacionhome {
     animation: miAnimacion 3s ease infinite;
 }
-
+ 
+/* Estilo para tamaño y posicionamiento de imagen*/
 .imagen-derecha {
     float: right;
     width: 300px;
@@ -316,3 +327,59 @@ footer {
     height: 250px;
     margin-right: 10px;
 }
+
+/* Estilos generales para todos los dispositivos */
+body {
+    font-size: 16px;
+  }
+  
+  /* Media query para dispositivos móviles */
+  @media (max-width: 767px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  /* Media query para tablets */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    body {
+      font-size: 15px;
+    }
+  }
+  
+  /* Media query para pantallas de escritorio */
+  @media (min-width: 1024px) {
+    body {
+      font-size: 16px;
+    }
+  }
+
+  /* Estilos generales para todas las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Media query para dispositivos móviles */
+  @media (max-width: 767px) {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* Media query para tablets */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    img {
+      max-width: 80%;
+      height: auto;
+    }
+  }
+  
+  /* Media query para pantallas de escritorio */
+  @media (min-width: 1024px) {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
