@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* Estilos generales para todos los dispositivos (pantalla de escritorio) */
 body {
-    color: rgb(0, 0, 0);
-    font-family: Montserrat, Arial, Helvetica, sans-serif;
-    font-size: 20px;
+  color: rgb(0, 0, 0);
+ font-family: Montserrat, Arial, Helvetica, sans-serif;
+ font-size: 16px;
 
 
-    background: #fff url("../img/fondo3.jpg") no-repeat fixed center;
-    
+ background: #fff url("../img/fondo3.jpg") no-repeat fixed center;
 }
 
 /* Footer */
@@ -72,27 +73,29 @@ form {
 
 /* Encabezado */
 header {
+/* Fuente */
   font-size: 50px;
+  text-align: center;
+/* Colores */
   background-color: rgba(1, 104, 55, 0.821);
-  margin: 10px 10px 10px 310px;
-  padding: 15px;
+  color: #fff;
+/* Bordes */  
   border: 2px solid black;
   border-radius: 10px;
-  box-sizing: border-box;
-  color: #fff;
-  width: 50%;
-  text-align: center;
-}
-
-.centrado{
+  box-sizing: border-box;  
+/* Flex */  
   display: flex;
   justify-content: center;
-  text-align: center;
+/* Margenes */  
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 20px;
+  padding: 20px;
 }
 
 h1 {
-    font-size: 2rem;
-   
+  display: inline; /* Permite que el borde se ajuste automáticamente al contenido del encabezado */
+  line-height: 1; /* Ajusta la altura de línea a 1 para que el borde esté pegado al texto */
 }
 
 h2 {
@@ -129,10 +132,6 @@ p {
   animation: miAnimacion 3s ease infinite;
 }
 
-/* Estilos generales para todos los dispositivos (pantalla de escritorio) */
-body {
-  font-size: 16px;
-}
 
 /* Media query para dispositivos móviles */
 @media (max-width: 767px) {
@@ -183,4 +182,22 @@ img {
     max-width: 100%;
     height: auto;
   }
+}
+
+/* .imagen-izquierda {
+  float: left;
+  width: 250px;
+  height: 250px;
+  margin-right: 10px;
+} */
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container > div {
+  width: 0px auto ;
+  margin: 0px auto;
+  text-align: center;
 }

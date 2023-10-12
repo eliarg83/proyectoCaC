@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
 
+/* Estilos generales para todos los dispositivos */
 body {
     color: rgb(255, 255, 255);
     font-family: Montserrat, Arial, Helvetica, sans-serif;
-    font-size: 14px;
+
 
     background:rgba(255, 255, 255, 0.2) url("../img/fondo3.jpg") no-repeat fixed center;
 
-    
-}
+    font-size: 16px;
+  }
 
 header {
     background-color: rgb(1, 104, 55, 0.821);
@@ -16,15 +17,12 @@ header {
     margin: 10px;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
+    font-size: 50px;
 }
 
 nav {
     background-color: rgb();
     margin: 10px;
-}
-
-header {
-    font-size: 50px;
 }
 
 h1 {
@@ -67,16 +65,18 @@ footer {
     color: rgb(255, 255, 255);
 }
 
-.centrar-imagen{
-    text-align: center;
+/* Imagen de mapa de llegar */
+.borde-imagen{
+    border: 2px solid #000;
+}
+
+.contenedor {
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     height: 100vh;
-    border: 2px solid black;
-    border-radius: 10px;
-    margin: 10px 100px 10px 100px;
 }
+
 
 .centrado-parrafo{
     text-align: center;
@@ -208,12 +208,12 @@ footer {
 
 .producto {
     width: calc(33.33% - 20px);
-    border: 3px solid rgb(1, 104, 55);
+    border: 3px solid rgb(0, 0, 0);
     border-radius: 5px;
     padding: 10px;
     text-align: center;
     margin-bottom: 20px;
-    background-color: rgba(1, 104, 55, 0.628);
+    background-color: rgba(1, 104, 55, 0.821);
 }
 
 .producto img {
@@ -310,7 +310,7 @@ footer {
 
   }
 
-#animacionhome {
+#animacion {
     animation: miAnimacion 3s ease infinite;
 }
  
@@ -327,11 +327,6 @@ footer {
     height: 250px;
     margin-right: 10px;
 }
-
-/* Estilos generales para todos los dispositivos */
-body {
-    font-size: 16px;
-  }
   
   /* Media query para dispositivos móviles */
   @media (max-width: 767px) {
@@ -382,4 +377,21 @@ img {
       max-width: 100%;
       height: auto;
     }
+  }
+
+/* ID de colores para letras de productos */
+#colores {
+    color: black;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+  .flex-container > div {
+    width: 0px auto ;
+    margin: 0px auto;
+    text-align: center;
   }
