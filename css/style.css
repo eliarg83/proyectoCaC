@@ -2,7 +2,7 @@
 
 /* Estilos generales para todos los dispositivos */
 body {
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
     font-family: Montserrat, Arial, Helvetica, sans-serif;
 
 
@@ -12,12 +12,13 @@ body {
   }
 
 header {
-    background-color: rgb(1, 104, 55, 0.821);
+    /* background-color: rgb(1, 104, 55, 0.821); */
     padding: 15px;
     margin: 10px;
-    border: 2px solid rgb(0, 0, 0);
+    /* border: 2px solid rgb(0, 0, 0); */
     border-radius: 10px;
     font-size: 50px;
+    color:black;
 }
 
 nav {
@@ -26,11 +27,13 @@ nav {
 }
 
 h1 {
+  color:black;
     font-size: 2rem;
     /* 32px */
 }
 
 h2 {
+  color:black;
     font-size: 1.5rem;
     /* 24px */
 }
@@ -40,9 +43,9 @@ p {
     /* 16px */
 }
 
-a {
+/* a {
     color: rgb(255, 236, 202);
-}
+} */
 
 .flex-container {
     display: flex;
@@ -52,6 +55,7 @@ a {
 
 
 footer {
+    padding: 2%;
     margin-top: 50px;
     color:#fff;
     text-align: left;
@@ -62,7 +66,7 @@ footer {
 .centrado {
     text-align: center;
     font-size: 100%;
-    color: rgb(255, 255, 255);
+    color: black;
 }
 
 /* Imagen de mapa de llegar */
@@ -112,7 +116,7 @@ footer {
 
 /* Subtitulo de header */
 .subtitulo{
-    color: rgb(255, 255, 255);
+    color: black;
     font-size: 70%;
     text-align: center;
 }
@@ -120,18 +124,18 @@ footer {
 /* Fondos */
 
 .fondo-verde {
-    background-color: rgb(1, 104, 55, 0.821);
+    /* background-color: rgb(1, 104, 55, 0.821); */
     margin: 10px;
     padding: 15px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 10px;
 }
 
 .fondo-azul {
-    background-color: rgb(19, 54, 73, 0.821);
+    /* background-color: rgb(19, 54, 73, 0.821); */
     margin: 10px;
     padding: 15px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 10px;
 }
 
@@ -153,9 +157,9 @@ footer {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
-    border: 3px solid rgb(1, 104, 55);
+    /* border: 3px solid rgb(1, 104, 55); */
     border-radius: 5px;
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
     text-align: center;
     margin-bottom: 50px;
 }
@@ -209,12 +213,12 @@ footer {
 
 .producto {
     width: calc(33.33% - 20px);
-    border: 3px solid rgb(0, 0, 0);
-    border-radius: 5px;
+    /* border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px; */
     padding: 10px;
     text-align: center;
     margin-bottom: 20px;
-    background-color: rgba(1, 104, 55, 0.821);
+    /* background-color: rgba(1, 104, 55, 0.821); */
 }
 
 .producto img {
